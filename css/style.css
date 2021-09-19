@@ -1,0 +1,201 @@
+/* ПОДКЛЮЧЕНИЕ ШРИФТОВ*/
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+         url('../fonts/PlayfairDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+         url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+         url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*---------------*/
+
+/* ОБНУЛЕНИЕ */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+
+/*------------------------*/
+
+ h1 {
+ 	font-family: 'Stalinist One';
+ 	font-size: 60px;
+ 	font-weight: 400;
+ 	color: #FFA500;
+ 	text-shadow: 5px 2px 3px #000; 
+ 	text-align: center;
+ }
+
+li {
+	text-align: center;
+}
+
+a {
+	font-weight: 700;
+	line-height: 40px;
+	font-size: 25px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	color: #FFA500;
+	text-shadow: 1px 1px 1px #000;
+	text-decoration: overline;
+}
+
+a span {
+	text-decoration: underline;
+	color: #FFA500;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 30px;
+	color: rgb(139, 0, 0);
+	line-height: 100px;
+}
+.text {
+	font-style: italic;
+	font-size: 19px;
+	line-height: 25px;
+	word-spacing: 0px;
+	text-shadow: 1px 1px 0px #FFA500;
+}
+
+
+.title_2 {
+	line-height: 100px;
+	font-weight: 700;
+	font-size: 29px;
+	color: #008080;
+	text-decoration: underline;
+}
+.text_2 {
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	text-shadow: 1px 1px 0px #FFA500;
+}
+
+span {
+	text-decoration: line-through;
+	font-size: 25px;
+	color: #ff0000;
+}
+
+.title_3 {
+	text-align: center;
+	line-height: 100px;
+	font-weight: 700;
+	font-size: 35px;
+	letter-spacing: 10px;
+	word-spacing: 25px;
+	text-transform: uppercase;
+	color: #FFb500;
+	text-shadow: 1px 2px 2px #000;
+}
+
+.text_3 {
+	text-align: center;
+	font-size: 20px;
+	word-spacing: 8px;
+	line-height: 28px;
+}
+
+
+.text_3 span {
+	color: #FFA500;
+	text-shadow: 1px 1px 1px #000;
+	text-decoration: underline;
+}
+
+.content_3 .span {
+	text-decoration: none;
+	text-transform: lowercase;
+	color: red;
+}
+
+.content_3 li {
+	text-align: center;
+}
+
+.footer {
+	background: #BDB76B;
+}
+
+.footer_title {
+	text-align: center;
+	color: #FF8C00;
+	font-size: 24px;
+	font-weight: 400;
+	text-shadow: 3px 1px 2px #000; 
+	font-family:'Stalinist One' ;
+}
+
+.footer span {
+	text-decoration: none;
+	font-weight: 700;
+	color: #000;
+	text-shadow: -1px -1px 2px #000; 
+	font-family: 'Playfair Display', serif;
+}
+
+.footer_text {
+	text-align: center;
+	text-decoration: overline;
+}
+
